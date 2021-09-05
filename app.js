@@ -46,6 +46,16 @@ $(document).ready(function () {
           pegarDados()
         } else {
           cotacaoDolar = data.value['0']['cotacaoCompra']
+          
+          if(dia < 10){
+            dia = `0${dia}`
+          }
+        
+          if(mes < 10){
+            mes = `0${mes}`
+          }
+          
+          $('#dolar-cotacao').html(`Dólar: ${cotacaoDolar.toFixed(2).replace('.',',')}  (${dia}/${mes}/${ano})`);
         }
       },
       error: function () {

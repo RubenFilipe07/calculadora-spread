@@ -34,7 +34,6 @@
         <div class="form-group">
         
             <input class="form-control form-control-lg" type="number" id="entrada" placeholder="Valor da compra em dólares"/>
-
             <div class="input-group">
                 <div class="input-group-prepend">
                   <label class="input-group-text" for="inputGroupSelect01">Banco</label>
@@ -65,17 +64,22 @@
                     <option value="uniprime">Uniprime</option>
                   </select>
               </div>
-            <button type="button" class="btn btn-primary btn-lg" id="calcular">Calcular</button>
+
+            <h5 id="dolar-cotacao"></h5>
+            <button type="button" class="btn btn-primary" id="calcular">Calcular</button>
+            
         </div>
       </form>
 
+      <small class="aviso-cotacao">Obs.: a cotação do dólar foi disponibilizada pelo Banco Central do Brasil.</small>
       <h1 id="saida" class="text-center"></h1>
      
-      <footer class="text-center text-lg-start footer">
+      <footer class="text-center text-lg-start footer fixed-bottom">
         <div class="text-center p-3">
             Desenvolvido por: 
             <a href="https://github.com/rubenfilipe07">Rúben Filipe</a>
         </div>
       </footer>
+      
 </body>
 </html>

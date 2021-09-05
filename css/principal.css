@@ -10,6 +10,16 @@ body {
     padding: 20px;
 }
 
+#dolar-cotacao {
+    margin-right: 4%;
+    margin-top: 3%;
+    float: right;
+}
+
+.aviso-cotacao{
+    margin-left: 25%;
+}
+
 footer, footer a {
     color: #586069;
     font-weight: 200;
@@ -46,6 +56,11 @@ button{
         max-width: 80%;
         margin: 30px auto;
     }
+
+    #dolar-cotacao {
+        margin-right: 10%;
+    }
+
 }
 
 @media only screen and (max-width: 680px) {
@@ -60,7 +75,19 @@ button{
     .alert {
         width: 100%;
     }
+
     .alert .btn-close {
         padding: 1.25rem 1rem;
     }
+    
+    .aviso-cotacao{
+        margin-left: 1%;
+        font-size: 3vw;
+    }
+
+    #dolar-cotacao {
+        font-size: 3.5vw;
+        margin-top: 6%;
+    }
+
 }
