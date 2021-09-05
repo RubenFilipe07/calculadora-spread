@@ -10,6 +10,10 @@ body {
     padding: 20px;
 }
 
+#saida{
+    margin-top: 50px;
+}
+
 #dolar-cotacao {
     margin-right: 4%;
     margin-top: 3%;
