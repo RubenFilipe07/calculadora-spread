@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#formulario {
+    max-width: 50%;
+    margin: 30px auto;
+    overflow: auto;
+    padding: 20px;
+}
+
+footer, footer a {
+    color: #586069;
+    font-weight: 200;
+}
+
+footer a:visited {
+    color: #586069;
+}
+
+input, select, label {
+    margin-top: 10px;
+}
+
+.form-group{
+    margin-top: 20px;
+}
+
+button{
+    margin-top: 10px;
+}
+
+.alert {
+    width: 50%;
+    margin: 0px auto;
+    display: none;
+}
+
+.alert .btn-close {
+    padding: 0.25rem 1rem;
+}
+
+@media only screen and (max-width: 680px) {
+    #formulario {
+        max-width: 80%;
+        margin: 30px auto;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    body {
+        font-size: 4vw;
+    }
+    #formulario {
+        max-width: 95%;
+        margin: 30px auto;
+    }
+
+    .alert {
+        width: 100%;
+    }
+    .alert .btn-close {
+        padding: 1.25rem 1rem;
+    }
+}
